@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: responder
-          image: dhsimpson/jenkins-example-node-app:latest
+          image: dhsimpson/jenkins-example-node-app:v1.0.2
           ports:
             - containerPort: 3000
               protocol: TCP
